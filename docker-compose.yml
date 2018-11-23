@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  ocelotapigw:
+    image: desit/ocelotapigw
+    build:
+      context: .
+      dockerfile: src/ApiGateways/ApiGw-Base/Dockerfile
+
+  desitweb:
+    image: desit/desitweb
+    build:
+      context: .
+      dockerfile: src/Clientes/DesitWeb/Dockerfile
+

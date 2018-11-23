@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AB8CE3C-20CF-4A14-A234-18FDFCE6080D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{1F6A3EF2-CECC-402F-AF96-3153BDFC082D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{FBD6F486-A490-4628-89D0-44704216D7BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clientes", "Clientes", "{DA83D62B-A98F-443E-9192-7B3DD23B797C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5556D0A2-531C-4E5F-AF33-F9138BFF5003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGw-Base", "ApiGw-Base", "{05F11554-ED96-4EC8-B8BE-5375368D1F51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGw", "src\ApiGateways\ApiGw-Base\OcelotApiGw.csproj", "{480E7045-4BC7-4124-A98C-3709F3140131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesitWeb", "src\Clientes\DesitWeb\DesitWeb.csproj", "{44F2D150-F855-4953-ADBB-8511FF4FFFC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5556D0A2-531C-4E5F-AF33-F9138BFF5003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5556D0A2-531C-4E5F-AF33-F9138BFF5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5556D0A2-531C-4E5F-AF33-F9138BFF5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5556D0A2-531C-4E5F-AF33-F9138BFF5003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480E7045-4BC7-4124-A98C-3709F3140131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480E7045-4BC7-4124-A98C-3709F3140131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480E7045-4BC7-4124-A98C-3709F3140131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480E7045-4BC7-4124-A98C-3709F3140131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F2D150-F855-4953-ADBB-8511FF4FFFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F2D150-F855-4953-ADBB-8511FF4FFFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F2D150-F855-4953-ADBB-8511FF4FFFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F2D150-F855-4953-ADBB-8511FF4FFFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F6A3EF2-CECC-402F-AF96-3153BDFC082D} = {5AB8CE3C-20CF-4A14-A234-18FDFCE6080D}
+		{FBD6F486-A490-4628-89D0-44704216D7BD} = {5AB8CE3C-20CF-4A14-A234-18FDFCE6080D}
+		{DA83D62B-A98F-443E-9192-7B3DD23B797C} = {5AB8CE3C-20CF-4A14-A234-18FDFCE6080D}
+		{05F11554-ED96-4EC8-B8BE-5375368D1F51} = {FBD6F486-A490-4628-89D0-44704216D7BD}
+		{480E7045-4BC7-4124-A98C-3709F3140131} = {05F11554-ED96-4EC8-B8BE-5375368D1F51}
+		{44F2D150-F855-4953-ADBB-8511FF4FFFC5} = {DA83D62B-A98F-443E-9192-7B3DD23B797C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F38776E6-2CCA-45E5-AA9C-80FB08DD1A92}
+	EndGlobalSection
+EndGlobal
